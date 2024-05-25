@@ -1,5 +1,6 @@
 # TaskManager
 Hubert Nowak i Lidia Moryc
+
 Aplikacja webowa na temat zarządzania listą zadań przez użytkowników.
 
 Tabele będą dotyczyć  Danych użytkownika -> Zadania -> Priorytet
