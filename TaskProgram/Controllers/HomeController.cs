@@ -15,6 +15,10 @@ public class HomeController : Controller
 
     public IActionResult Index()
     {
+        if (HttpContext.Session.GetString("User") == null)
+        {
+            return RedirectToAction("Index", "Login");
+        }
         return View();
     }
 
@@ -27,5 +31,9 @@ public class HomeController : Controller
     public IActionResult Error()
     {
         return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+    }
+    public IActionResult Register()
+    {
+        return View();
     }
 }
