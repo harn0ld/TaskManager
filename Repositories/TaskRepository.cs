@@ -14,6 +14,7 @@ namespace TaskManager.Repositories
             _context = context;
         }
 
+        //// Implementacje metod dla
         public TaskModel Get(int taskId)
             => _context.Tasks.SingleOrDefault(x => x.TaskId == taskId);
 
@@ -45,6 +46,46 @@ namespace TaskManager.Repositories
             if (result != null)
             {
                 _context.Tasks.Remove(result);
+                _context.SaveChanges();
+            }
+        }
+
+
+
+        // Implementacje metod dla Priority
+        public Priorities GetPriority(int priorityId)
+        {
+            return _context.Priorities.Find(priorityId);
+        }
+
+        public IQueryable<Priorities> GetAllPriorities()
+        {
+            return _context.Priorities;
+        }
+
+        public void AddPriority(Priorities priority)
+        {
+            _context.Priorities.Add(priority);
+            _context.SaveChanges();
+        }
+
+        public void UpdatePriority(int priorityId, Priorities priority)
+        {
+            var existingPriority = _context.Priorities.Find(priorityId);
+            if (existingPriority != null)
+            {
+                existingPriority.PriorityType = priority.PriorityType;
+                existingPriority.Reason = priority.Reason;
+                _context.SaveChanges();
+            }
+        }
+
+        public void DeletePriority(int priorityId)
+        {
+            var priority = _context.Priorities.Find(priorityId);
+            if (priority != null)
+            {
+                _context.Priorities.Remove(priority);
                 _context.SaveChanges();
             }
         }

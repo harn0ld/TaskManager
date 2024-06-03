@@ -13,5 +13,16 @@ namespace TaskManager.Models
         }
 
         public DbSet<TaskModel> Tasks { get; set; }
+        public DbSet<Priorities> Priorities { get; set; }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<TaskModel>()
+                .HasOne(t => t.Priority)
+                .WithMany(p => p.Tasks)
+                .HasForeignKey(t => t.PriorityId);
+        }
+
+
     }
 }

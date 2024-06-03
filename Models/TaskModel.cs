@@ -21,5 +21,10 @@ namespace TaskManager.Models
         [MaxLength(2000)]
         public string Description { get; set; }
         public bool Done { get; set; }
+
+        public int? PriorityId { get; set; }
+
+        [ForeignKey("PriorityId")]
+        public Priorities Priority { get; set; }
     }
 }
