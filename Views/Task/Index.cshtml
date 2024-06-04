@@ -6,6 +6,10 @@
 
 <h1 class="display-4">Lista zadań</h1>
 
+<div class="float-right">
+    <a class="btn btn-primary" asp-action="Hej">Priorytety</a>
+</div>
+
 <p>
     <a class="btn btn-primary" asp-action="Create">Dodaj zadanie</a>
 </p>
@@ -15,22 +19,57 @@
             <th>
                 @Html.DisplayNameFor(model => model.Name)
             </th>
+            <th>
+                Priorytet
+            </th>
+            <th>
+                Status
+            </th>
             <th></th>
         </tr>
     </thead>
     <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td style="width:65%">
-                @Html.DisplayFor(modelItem => item.Name)
-            </td>
-            <td style="width:35%">
-                @Html.ActionLink("Gotowe", "Done", new { id = item.TaskId }, new { @class = "btn btn-success" }) 
-                @Html.ActionLink("Szczegóły", "Details", new { id = item.TaskId }, new { @class = "btn btn-info" }) 
-                @Html.ActionLink("Edytuj", "Edit", new { id = item.TaskId }, new { @class = "btn btn-warning" }) 
-                @Html.ActionLink("Usuń", "Delete", new { id = item.TaskId }, new { @class = "btn btn-danger" })
-            </td>
-        </tr>
-}
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td style="width:50%">
+                    @Html.DisplayFor(modelItem => item.Name)
+                </td>
+                <td style="width:15%;">
+                    @if (item.PriorityId != null)
+                    {
+                        if (item.PriorityId == 1)
+                        {
+                            <span>wysoki</span>
+                        }
+                        else if (item.PriorityId == 1004)
+                        {
+                            <span>sredni</span>
+                        }
+                        else if (item.PriorityId == 1005)
+                        {
+                            <span>spokojnie</span>
+                        }
+                    }
+                <td style="width:15%">
+                    @Html.ActionLink("Gotowe", "Done", new { id = item.TaskId }, new { @class = "btn btn-success" })
+                    @Html.ActionLink("Szczegóły", "Details", new { id = item.TaskId }, new { @class = "btn btn-info" })
+                    @Html.ActionLink("Edytuj", "Edit", new { id = item.TaskId }, new { @class = "btn btn-warning" })
+                    @Html.ActionLink("Usuń", "Delete", new { id = item.TaskId }, new { @class = "btn btn-danger" })
+                </td>
+            </tr>
+        }
     </tbody>
 </table>
+
+@section Scripts {
+    <script>
+        function changeStatus(status, taskId) {
+            // Implement logic to update task status using AJAX or form submission
+            // For example:
+            // $.post('/Task/ChangeStatus', { id: taskId, status: status }, function(data) {
+            //     // handle response
+            // });
+        }
+    </script>
+}

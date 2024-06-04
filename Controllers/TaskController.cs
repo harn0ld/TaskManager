@@ -12,10 +12,12 @@ namespace TaskManager.Controllers
     public class TaskController : Controller
     {
         private readonly ITaskRepository _taskRepository;
+        private readonly IPriorityRepository _priorityRepository;
 
-        public TaskController(ITaskRepository taskRepository)
+        public TaskController(ITaskRepository taskRepository, IPriorityRepository priorityRepository)
         {
             _taskRepository = taskRepository;
+            _priorityRepository = priorityRepository;
         }
 
         // GET: Task
@@ -89,5 +91,20 @@ namespace TaskManager.Controllers
 
             return RedirectToAction(nameof(Index));
         }
+
+
+        public IActionResult Hej()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult Hej(TaskModel taskModel)
+        {
+            return RedirectToAction(nameof(Index));
+        }
+
+
     }
 }

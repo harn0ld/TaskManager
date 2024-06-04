@@ -146,3 +146,4 @@ C:\Users\Lee\Desktop\TaskManager\obj\Debug\netcoreapp3.1\TaskMana.F3FB485A.Up2Da
 C:\Users\Lee\Desktop\TaskManager\obj\Debug\netcoreapp3.1\TaskManager.dll
 C:\Users\Lee\Desktop\TaskManager\obj\Debug\netcoreapp3.1\TaskManager.pdb
 C:\Users\Lee\Desktop\TaskManager\obj\Debug\netcoreapp3.1\TaskManager.genruntimeconfig.cache
+C:\Users\Lee\Desktop\TaskManager\obj\Debug\netcoreapp3.1\TaskManager.sourcelink.json
