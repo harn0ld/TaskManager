@@ -14,12 +14,5 @@ namespace TaskManager.Repositories
         void Update(int taskId, TaskModel task);
         void Delete(int taskId);
 
-        // Metody dla tabeli Priority
-        Priorities GetPriority(int priorityId);
-        IQueryable<Priorities> GetAllPriorities();
-        void AddPriority(Priorities priority);
-        void UpdatePriority(int priorityId, Priorities priority);
-        void DeletePriority(int priorityId);
-
     }
 }

@@ -25,6 +25,10 @@ namespace TaskManager.Models
         public int? PriorityId { get; set; }
 
         [ForeignKey("PriorityId")]
-        public Priorities Priority { get; set; }
+        public virtual Priorities Priority { get; set; }
+
+        [DisplayName("Status")]
+        public string Status { get; set; } // Dodaj pole Status do przechowywania informacji o stanie zadania
+    
     }
 }

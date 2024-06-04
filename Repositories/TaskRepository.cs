@@ -1,4 +1,6 @@
-﻿using System;
+﻿
+using Microsoft.EntityFrameworkCore;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -19,7 +21,8 @@ namespace TaskManager.Repositories
             => _context.Tasks.SingleOrDefault(x => x.TaskId == taskId);
 
         public IQueryable<TaskModel> GetAllActive()
-            => _context.Tasks.Where(x => !x.Done);
+             //=> _context.Tasks.Include(x => x.Priority).Where(x => !x.Done);
+             => _context.Tasks.Where(x => !x.Done);
 
         public void Add(TaskModel task)
         {
@@ -52,42 +55,5 @@ namespace TaskManager.Repositories
 
 
 
-        // Implementacje metod dla Priority
-        public Priorities GetPriority(int priorityId)
-        {
-            return _context.Priorities.Find(priorityId);
-        }
-
-        public IQueryable<Priorities> GetAllPriorities()
-        {
-            return _context.Priorities;
-        }
-
-        public void AddPriority(Priorities priority)
-        {
-            _context.Priorities.Add(priority);
-            _context.SaveChanges();
-        }
-
-        public void UpdatePriority(int priorityId, Priorities priority)
-        {
-            var existingPriority = _context.Priorities.Find(priorityId);
-            if (existingPriority != null)
-            {
-                existingPriority.PriorityType = priority.PriorityType;
-                existingPriority.Reason = priority.Reason;
-                _context.SaveChanges();
-            }
-        }
-
-        public void DeletePriority(int priorityId)
-        {
-            var priority = _context.Priorities.Find(priorityId);
-            if (priority != null)
-            {
-                _context.Priorities.Remove(priority);
-                _context.SaveChanges();
-            }
-        }
     }
 }

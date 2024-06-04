@@ -21,6 +21,21 @@ namespace TaskManager.Models
                 .HasOne(t => t.Priority)
                 .WithMany(p => p.Tasks)
                 .HasForeignKey(t => t.PriorityId);
+
+            modelBuilder.Entity<TaskModel>(entity =>
+            {
+                entity.Property(e => e.Done)
+                      .HasColumnType("bit")
+                      .IsRequired();
+            });
+
+            modelBuilder.Entity<Priorities>(entity =>
+            {
+                entity.HasKey(e => e.PriorityId);
+                entity.Property(e => e.PriorityType).IsRequired();
+                entity.Property(e => e.Reason);
+            });
+
         }
 
 
