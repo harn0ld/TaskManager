@@ -147,3 +147,10 @@ C:\Users\Lee\Desktop\TaskManager\obj\Debug\netcoreapp3.1\TaskManager.dll
 C:\Users\Lee\Desktop\TaskManager\obj\Debug\netcoreapp3.1\TaskManager.pdb
 C:\Users\Lee\Desktop\TaskManager\obj\Debug\netcoreapp3.1\TaskManager.genruntimeconfig.cache
 C:\Users\Lee\Desktop\TaskManager\obj\Debug\netcoreapp3.1\TaskManager.sourcelink.json
+C:\Users\Lee\Desktop\TaskManager\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Lee\Desktop\TaskManager\obj\Debug\netcoreapp3.1\Razor\Views\Priority\Index.cshtml.g.cs
+C:\Users\Lee\Desktop\TaskManager\obj\Debug\netcoreapp3.1\Razor\Views\Login\Index.cshtml.g.cs
+C:\Users\Lee\Desktop\TaskManager\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\Lee\Desktop\TaskManager\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Users\Lee\Desktop\TaskManager\obj\Debug\netcoreapp3.1\Razor\Views\Login\Register.cshtml.g.cs
+C:\Users\Lee\Desktop\TaskManager\obj\Debug\netcoreapp3.1\Razor\Views\Login\Welcome.cshtml.g.cs

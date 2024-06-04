@@ -93,7 +93,7 @@ namespace TaskManager.Controllers
         }
 
 
-        public IActionResult Hej()
+        public ActionResult Hej()
         {
             return View();
         }

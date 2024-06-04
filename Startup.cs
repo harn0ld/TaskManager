@@ -32,6 +32,14 @@ namespace TaskManager
 
             services.AddTransient<ITaskRepository, TaskRepository>();
             services.AddTransient<IPriorityRepository, PriorityRepository>();
+
+            services.AddSession(options =>
+            {
+                options.IdleTimeout = TimeSpan.FromMinutes(30);
+                options.Cookie.HttpOnly = true;
+                options.Cookie.IsEssential = true;
+            });
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -58,8 +66,22 @@ namespace TaskManager
             {
                 endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "{controller=Task}/{action=Index}/{id?}");
+                    pattern: "{controller=Login}/{action=Index}/{id?}");
             });
+
+            app.Use(async (ctx, next) =>
+            {
+                await next();
+
+                if (ctx.Response.StatusCode == 404 && !ctx.Response.HasStarted)
+                {
+                    string originalPath = ctx.Request.Path.Value;
+                    ctx.Items["originalPath"] = originalPath;
+                    ctx.Request.Path = "/Login/Index";
+                    await next();
+                }
+            });
+
         }
     }
 }

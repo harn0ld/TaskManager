@@ -16,7 +16,7 @@ namespace TaskManager.Models
         [MaxLength(50)]
         public string PriorityType { get; set; }
         [MaxLength(50)]
-        public bool Reason { get; set; }
+        public string Reason { get; set; }
 
         public ICollection<TaskModel> Tasks { get; set; }
     }

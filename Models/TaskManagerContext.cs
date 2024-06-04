@@ -14,6 +14,14 @@ namespace TaskManager.Models
 
         public DbSet<TaskModel> Tasks { get; set; }
         public DbSet<Priorities> Priorities { get; set; }
+        public DbSet<State> State { get; set; }
+
+
+        /// //////////////////////////////////
+        public DbSet<Login> Logins { get; set; }
+        /// //////////////////////
+
+
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -36,7 +44,31 @@ namespace TaskManager.Models
                 entity.Property(e => e.Reason);
             });
 
+
+            //////
+            base.OnModelCreating(modelBuilder);
+
+            modelBuilder.Entity<Login>().HasData(
+                new Login { Id = 1, Username = "test", PasswordHash = ComputeHash("password") }
+            );
+            ///////
+            ///
         }
+
+        private string ComputeHash(string input)
+        {
+            using (var md5 = System.Security.Cryptography.MD5.Create())
+            {
+                var bytes = md5.ComputeHash(System.Text.Encoding.UTF8.GetBytes(input));
+                var sb = new System.Text.StringBuilder();
+                for (int i = 0; i < bytes.Length; i++)
+                {
+                    sb.Append(bytes[i].ToString("x2"));
+                }
+                return sb.ToString();
+            }
+        }
+        
 
 
     }
