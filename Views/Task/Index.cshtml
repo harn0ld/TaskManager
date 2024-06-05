@@ -1,4 +1,4 @@
-﻿@model IEnumerable<TaskManager.Models.TaskModel>
+@model IEnumerable<TaskManager.Models.TaskModel>
 
 @{
     ViewData["Title"] = "Index";
@@ -6,12 +6,10 @@
 
 <h1 class="display-4">Lista zadań</h1>
 
-<div class="float-right">
-    <a class="btn btn-primary" asp-action="Hej">Priorytety</a>
-</div>
-
 <p>
     <a class="btn btn-primary" asp-action="Create">Dodaj zadanie</a>
+    <a class="btn btn-secondary" asp-action="Index" asp-controller="Priority">Priorytet - legenda</a>
+
 </p>
 <table class="table">
     <thead>
@@ -44,11 +42,11 @@
                         }
                         else if (item.PriorityId == 1004)
                         {
-                            <span>sredni</span>
+                            <span>średni</span>
                         }
                         else if (item.PriorityId == 1005)
                         {
-                            <span>spokojnie</span>
+                            <span>niski</span>
                         }
                     }
                 <td style="width:15%">
