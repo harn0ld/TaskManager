@@ -33,6 +33,10 @@ namespace TaskManager
             services.AddTransient<ITaskRepository, TaskRepository>();
             services.AddTransient<IPriorityRepository, PriorityRepository>();
 
+           
+            services.AddDistributedMemoryCache();
+            
+            
             services.AddSession(options =>
             {
                 options.IdleTimeout = TimeSpan.FromMinutes(30);
@@ -59,7 +63,7 @@ namespace TaskManager
             app.UseStaticFiles();
 
             app.UseRouting();
-
+            app.UseSession();
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
