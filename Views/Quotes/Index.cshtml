@@ -1,0 +1,23 @@
+@model IEnumerable<TaskManager.Models.Quotes>
+
+@{
+    ViewData["Title"] = "Quotes";
+}
+
+<h1 class="display-4">Cytaty</h1>
+
+<p>
+    <a class="btn btn-primary" asp-action="Create">Dodaj cytat</a>
+</p>
+
+@if (ViewBag.RandomQuote != null)
+{
+    <div class="alert alert-info">
+        <strong>Motywujący cytat na dziś!</strong>
+        <br />
+        <p>@ViewBag.RandomQuote.Quote</p>
+        <footer class="blockquote-footer">@ViewBag.RandomQuote.Author</footer>
+    </div>
+}
+
+

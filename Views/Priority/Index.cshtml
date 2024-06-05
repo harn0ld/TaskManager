@@ -1,0 +1,28 @@
+@model IEnumerable<TaskManager.Models.Priorities>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Określenie</th>
+            <th>Szczegóły</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var priority in Model)
+        {
+            <tr>
+                <td>@priority.PriorityType</td>
+                <td>@priority.Reason</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@section Scripts {
+    <!-- reszta kodu -->
+}

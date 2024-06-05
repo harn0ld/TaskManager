@@ -1,0 +1,494 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Lidia\\Desktop\\TaskManager-task-manager-3-tabele\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B94AF6F0-38A7-45DA-9A9A-F3487F707C14}|TaskManager.csproj|c:\\users\\lidia\\desktop\\taskmanager-task-manager-3-tabele\\models\\status.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B94AF6F0-38A7-45DA-9A9A-F3487F707C14}|TaskManager.csproj|solutionrelative:models\\status.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B94AF6F0-38A7-45DA-9A9A-F3487F707C14}|TaskManager.csproj|c:\\users\\lidia\\desktop\\taskmanager-task-manager-3-tabele\\models\\quotes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B94AF6F0-38A7-45DA-9A9A-F3487F707C14}|TaskManager.csproj|solutionrelative:models\\quotes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B94AF6F0-38A7-45DA-9A9A-F3487F707C14}|TaskManager.csproj|c:\\users\\lidia\\desktop\\taskmanager-task-manager-3-tabele\\models\\priorities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B94AF6F0-38A7-45DA-9A9A-F3487F707C14}|TaskManager.csproj|solutionrelative:models\\priorities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B94AF6F0-38A7-45DA-9A9A-F3487F707C14}|TaskManager.csproj|c:\\users\\lidia\\desktop\\taskmanager-task-manager-3-tabele\\views\\task\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B94AF6F0-38A7-45DA-9A9A-F3487F707C14}|TaskManager.csproj|solutionrelative:views\\task\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B94AF6F0-38A7-45DA-9A9A-F3487F707C14}|TaskManager.csproj|c:\\users\\lidia\\desktop\\taskmanager-task-manager-3-tabele\\views\\task\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B94AF6F0-38A7-45DA-9A9A-F3487F707C14}|TaskManager.csproj|solutionrelative:views\\task\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B94AF6F0-38A7-45DA-9A9A-F3487F707C14}|TaskManager.csproj|c:\\users\\lidia\\desktop\\taskmanager-task-manager-3-tabele\\views\\task\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B94AF6F0-38A7-45DA-9A9A-F3487F707C14}|TaskManager.csproj|solutionrelative:views\\task\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B94AF6F0-38A7-45DA-9A9A-F3487F707C14}|TaskManager.csproj|c:\\users\\lidia\\desktop\\taskmanager-task-manager-3-tabele\\repositories\\priorityrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B94AF6F0-38A7-45DA-9A9A-F3487F707C14}|TaskManager.csproj|solutionrelative:repositories\\priorityrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B94AF6F0-38A7-45DA-9A9A-F3487F707C14}|TaskManager.csproj|c:\\users\\lidia\\desktop\\taskmanager-task-manager-3-tabele\\repositories\\ipriorityrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B94AF6F0-38A7-45DA-9A9A-F3487F707C14}|TaskManager.csproj|solutionrelative:repositories\\ipriorityrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B94AF6F0-38A7-45DA-9A9A-F3487F707C14}|TaskManager.csproj|c:\\users\\lidia\\desktop\\taskmanager-task-manager-3-tabele\\controllers\\prioritycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B94AF6F0-38A7-45DA-9A9A-F3487F707C14}|TaskManager.csproj|solutionrelative:controllers\\prioritycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B94AF6F0-38A7-45DA-9A9A-F3487F707C14}|TaskManager.csproj|c:\\users\\lidia\\desktop\\taskmanager-task-manager-3-tabele\\views\\quotes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B94AF6F0-38A7-45DA-9A9A-F3487F707C14}|TaskManager.csproj|solutionrelative:views\\quotes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B94AF6F0-38A7-45DA-9A9A-F3487F707C14}|TaskManager.csproj|c:\\users\\lidia\\desktop\\taskmanager-task-manager-3-tabele\\models\\taskmanagercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B94AF6F0-38A7-45DA-9A9A-F3487F707C14}|TaskManager.csproj|solutionrelative:models\\taskmanagercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B94AF6F0-38A7-45DA-9A9A-F3487F707C14}|TaskManager.csproj|c:\\users\\lidia\\desktop\\taskmanager-task-manager-3-tabele\\controllers\\quotescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B94AF6F0-38A7-45DA-9A9A-F3487F707C14}|TaskManager.csproj|solutionrelative:controllers\\quotescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B94AF6F0-38A7-45DA-9A9A-F3487F707C14}|TaskManager.csproj|c:\\users\\lidia\\desktop\\taskmanager-task-manager-3-tabele\\repositories\\quotesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B94AF6F0-38A7-45DA-9A9A-F3487F707C14}|TaskManager.csproj|solutionrelative:repositories\\quotesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B94AF6F0-38A7-45DA-9A9A-F3487F707C14}|TaskManager.csproj|c:\\users\\lidia\\desktop\\taskmanager-task-manager-3-tabele\\repositories\\iquotesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B94AF6F0-38A7-45DA-9A9A-F3487F707C14}|TaskManager.csproj|solutionrelative:repositories\\iquotesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B94AF6F0-38A7-45DA-9A9A-F3487F707C14}|TaskManager.csproj|c:\\users\\lidia\\desktop\\taskmanager-task-manager-3-tabele\\repositories\\taskrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B94AF6F0-38A7-45DA-9A9A-F3487F707C14}|TaskManager.csproj|solutionrelative:repositories\\taskrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B94AF6F0-38A7-45DA-9A9A-F3487F707C14}|TaskManager.csproj|c:\\users\\lidia\\desktop\\taskmanager-task-manager-3-tabele\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B94AF6F0-38A7-45DA-9A9A-F3487F707C14}|TaskManager.csproj|solutionrelative:startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B94AF6F0-38A7-45DA-9A9A-F3487F707C14}|TaskManager.csproj|c:\\users\\lidia\\desktop\\taskmanager-task-manager-3-tabele\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B94AF6F0-38A7-45DA-9A9A-F3487F707C14}|TaskManager.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B94AF6F0-38A7-45DA-9A9A-F3487F707C14}|TaskManager.csproj|c:\\users\\lidia\\desktop\\taskmanager-task-manager-3-tabele\\models\\taskmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B94AF6F0-38A7-45DA-9A9A-F3487F707C14}|TaskManager.csproj|solutionrelative:models\\taskmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B94AF6F0-38A7-45DA-9A9A-F3487F707C14}|TaskManager.csproj|c:\\users\\lidia\\desktop\\taskmanager-task-manager-3-tabele\\repositories\\itaskrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B94AF6F0-38A7-45DA-9A9A-F3487F707C14}|TaskManager.csproj|solutionrelative:repositories\\itaskrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B94AF6F0-38A7-45DA-9A9A-F3487F707C14}|TaskManager.csproj|c:\\users\\lidia\\desktop\\taskmanager-task-manager-3-tabele\\views\\priority\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B94AF6F0-38A7-45DA-9A9A-F3487F707C14}|TaskManager.csproj|solutionrelative:views\\priority\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B94AF6F0-38A7-45DA-9A9A-F3487F707C14}|TaskManager.csproj|c:\\users\\lidia\\desktop\\taskmanager-task-manager-3-tabele\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B94AF6F0-38A7-45DA-9A9A-F3487F707C14}|TaskManager.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B94AF6F0-38A7-45DA-9A9A-F3487F707C14}|TaskManager.csproj|c:\\users\\lidia\\desktop\\taskmanager-task-manager-3-tabele\\controllers\\taskcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B94AF6F0-38A7-45DA-9A9A-F3487F707C14}|TaskManager.csproj|solutionrelative:controllers\\taskcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B94AF6F0-38A7-45DA-9A9A-F3487F707C14}|TaskManager.csproj|c:\\users\\lidia\\desktop\\taskmanager-task-manager-3-tabele\\views\\task\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B94AF6F0-38A7-45DA-9A9A-F3487F707C14}|TaskManager.csproj|solutionrelative:views\\task\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B94AF6F0-38A7-45DA-9A9A-F3487F707C14}|TaskManager.csproj|c:\\users\\lidia\\desktop\\taskmanager-task-manager-3-tabele\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{B94AF6F0-38A7-45DA-9A9A-F3487F707C14}|TaskManager.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B94AF6F0-38A7-45DA-9A9A-F3487F707C14}|TaskManager.csproj|c:\\users\\lidia\\desktop\\taskmanager-task-manager-3-tabele\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{B94AF6F0-38A7-45DA-9A9A-F3487F707C14}|TaskManager.csproj|solutionrelative:wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B94AF6F0-38A7-45DA-9A9A-F3487F707C14}|TaskManager.csproj|c:\\users\\lidia\\desktop\\taskmanager-task-manager-3-tabele\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B94AF6F0-38A7-45DA-9A9A-F3487F707C14}|TaskManager.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B94AF6F0-38A7-45DA-9A9A-F3487F707C14}|TaskManager.csproj|c:\\users\\lidia\\desktop\\taskmanager-task-manager-3-tabele\\views\\task\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B94AF6F0-38A7-45DA-9A9A-F3487F707C14}|TaskManager.csproj|solutionrelative:views\\task\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B94AF6F0-38A7-45DA-9A9A-F3487F707C14}|TaskManager.csproj|c:\\users\\lidia\\desktop\\taskmanager-task-manager-3-tabele\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B94AF6F0-38A7-45DA-9A9A-F3487F707C14}|TaskManager.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Status.cs",
+              "DocumentMoniker": "C:\\Users\\Lidia\\Desktop\\TaskManager-task-manager-3-tabele\\Models\\Status.cs",
+              "RelativeDocumentMoniker": "Models\\Status.cs",
+              "ToolTip": "C:\\Users\\Lidia\\Desktop\\TaskManager-task-manager-3-tabele\\Models\\Status.cs",
+              "RelativeToolTip": "Models\\Status.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T21:11:50.775Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PriorityController.cs",
+              "DocumentMoniker": "C:\\Users\\Lidia\\Desktop\\TaskManager-task-manager-3-tabele\\Controllers\\PriorityController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PriorityController.cs",
+              "ToolTip": "C:\\Users\\Lidia\\Desktop\\TaskManager-task-manager-3-tabele\\Controllers\\PriorityController.cs",
+              "RelativeToolTip": "Controllers\\PriorityController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T21:10:16.013Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Lidia\\Desktop\\TaskManager-task-manager-3-tabele\\Views\\Quotes\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Quotes\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Lidia\\Desktop\\TaskManager-task-manager-3-tabele\\Views\\Quotes\\Index.cshtml",
+              "RelativeToolTip": "Views\\Quotes\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-05T20:42:30.145Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Lidia\\Desktop\\TaskManager-task-manager-3-tabele\\Views\\Task\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Task\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Lidia\\Desktop\\TaskManager-task-manager-3-tabele\\Views\\Task\\Index.cshtml",
+              "RelativeToolTip": "Views\\Task\\Index.cshtml",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAAC4AAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-04T11:53:37.279Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PriorityRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Lidia\\Desktop\\TaskManager-task-manager-3-tabele\\Repositories\\PriorityRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\PriorityRepository.cs",
+              "ToolTip": "C:\\Users\\Lidia\\Desktop\\TaskManager-task-manager-3-tabele\\Repositories\\PriorityRepository.cs",
+              "RelativeToolTip": "Repositories\\PriorityRepository.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAkwDQAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T12:04:41.178Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Priorities.cs",
+              "DocumentMoniker": "C:\\Users\\Lidia\\Desktop\\TaskManager-task-manager-3-tabele\\Models\\Priorities.cs",
+              "RelativeDocumentMoniker": "Models\\Priorities.cs",
+              "ToolTip": "C:\\Users\\Lidia\\Desktop\\TaskManager-task-manager-3-tabele\\Models\\Priorities.cs",
+              "RelativeToolTip": "Models\\Priorities.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T11:53:57.98Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IPriorityRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Lidia\\Desktop\\TaskManager-task-manager-3-tabele\\Repositories\\IPriorityRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\IPriorityRepository.cs",
+              "ToolTip": "C:\\Users\\Lidia\\Desktop\\TaskManager-task-manager-3-tabele\\Repositories\\IPriorityRepository.cs",
+              "RelativeToolTip": "Repositories\\IPriorityRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T12:08:00.545Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Quotes.cs",
+              "DocumentMoniker": "C:\\Users\\Lidia\\Desktop\\TaskManager-task-manager-3-tabele\\Models\\Quotes.cs",
+              "RelativeDocumentMoniker": "Models\\Quotes.cs",
+              "ToolTip": "C:\\Users\\Lidia\\Desktop\\TaskManager-task-manager-3-tabele\\Models\\Quotes.cs",
+              "RelativeToolTip": "Models\\Quotes.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T20:34:42.917Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Lidia\\Desktop\\TaskManager-task-manager-3-tabele\\Views\\Task\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Task\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Lidia\\Desktop\\TaskManager-task-manager-3-tabele\\Views\\Task\\Details.cshtml",
+              "RelativeToolTip": "Views\\Task\\Details.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-04T15:47:10.686Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Lidia\\Desktop\\TaskManager-task-manager-3-tabele\\Views\\Task\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Task\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Lidia\\Desktop\\TaskManager-task-manager-3-tabele\\Views\\Task\\Create.cshtml",
+              "RelativeToolTip": "Views\\Task\\Create.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAACAAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-04T11:55:47.887Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "TaskRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Lidia\\Desktop\\TaskManager-task-manager-3-tabele\\Repositories\\TaskRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\TaskRepository.cs",
+              "ToolTip": "C:\\Users\\Lidia\\Desktop\\TaskManager-task-manager-3-tabele\\Repositories\\TaskRepository.cs",
+              "RelativeToolTip": "Repositories\\TaskRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T11:53:48.019Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "QuotesRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Lidia\\Desktop\\TaskManager-task-manager-3-tabele\\Repositories\\QuotesRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\QuotesRepository.cs",
+              "ToolTip": "C:\\Users\\Lidia\\Desktop\\TaskManager-task-manager-3-tabele\\Repositories\\QuotesRepository.cs",
+              "RelativeToolTip": "Repositories\\QuotesRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T20:35:43.202Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "TaskManagerContext.cs",
+              "DocumentMoniker": "C:\\Users\\Lidia\\Desktop\\TaskManager-task-manager-3-tabele\\Models\\TaskManagerContext.cs",
+              "RelativeDocumentMoniker": "Models\\TaskManagerContext.cs",
+              "ToolTip": "C:\\Users\\Lidia\\Desktop\\TaskManager-task-manager-3-tabele\\Models\\TaskManagerContext.cs",
+              "RelativeToolTip": "Models\\TaskManagerContext.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAA5wBQAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T19:18:51.831Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IQuotesRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Lidia\\Desktop\\TaskManager-task-manager-3-tabele\\Repositories\\IQuotesRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\IQuotesRepository.cs",
+              "ToolTip": "C:\\Users\\Lidia\\Desktop\\TaskManager-task-manager-3-tabele\\Repositories\\IQuotesRepository.cs",
+              "RelativeToolTip": "Repositories\\IQuotesRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T20:35:57.872Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "QuotesController.cs",
+              "DocumentMoniker": "C:\\Users\\Lidia\\Desktop\\TaskManager-task-manager-3-tabele\\Controllers\\QuotesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\QuotesController.cs",
+              "ToolTip": "C:\\Users\\Lidia\\Desktop\\TaskManager-task-manager-3-tabele\\Controllers\\QuotesController.cs",
+              "RelativeToolTip": "Controllers\\QuotesController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T20:34:18.982Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "C:\\Users\\Lidia\\Desktop\\TaskManager-task-manager-3-tabele\\Startup.cs",
+              "RelativeDocumentMoniker": "Startup.cs",
+              "ToolTip": "C:\\Users\\Lidia\\Desktop\\TaskManager-task-manager-3-tabele\\Startup.cs",
+              "RelativeToolTip": "Startup.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAAwB8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T14:11:32.165Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Lidia\\Desktop\\TaskManager-task-manager-3-tabele\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Lidia\\Desktop\\TaskManager-task-manager-3-tabele\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T14:11:29.985Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Lidia\\Desktop\\TaskManager-task-manager-3-tabele\\Views\\Task\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Task\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Lidia\\Desktop\\TaskManager-task-manager-3-tabele\\Views\\Task\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Task\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-04T15:41:25.659Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "TaskController.cs",
+              "DocumentMoniker": "C:\\Users\\Lidia\\Desktop\\TaskManager-task-manager-3-tabele\\Controllers\\TaskController.cs",
+              "RelativeDocumentMoniker": "Controllers\\TaskController.cs",
+              "ToolTip": "C:\\Users\\Lidia\\Desktop\\TaskManager-task-manager-3-tabele\\Controllers\\TaskController.cs",
+              "RelativeToolTip": "Controllers\\TaskController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAG0AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T11:54:09.418Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "TaskModel.cs",
+              "DocumentMoniker": "C:\\Users\\Lidia\\Desktop\\TaskManager-task-manager-3-tabele\\Models\\TaskModel.cs",
+              "RelativeDocumentMoniker": "Models\\TaskModel.cs",
+              "ToolTip": "C:\\Users\\Lidia\\Desktop\\TaskManager-task-manager-3-tabele\\Models\\TaskModel.cs",
+              "RelativeToolTip": "Models\\TaskModel.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T11:53:51.003Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ITaskRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Lidia\\Desktop\\TaskManager-task-manager-3-tabele\\Repositories\\ITaskRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\ITaskRepository.cs",
+              "ToolTip": "C:\\Users\\Lidia\\Desktop\\TaskManager-task-manager-3-tabele\\Repositories\\ITaskRepository.cs",
+              "RelativeToolTip": "Repositories\\ITaskRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T18:42:02.346Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Lidia\\Desktop\\TaskManager-task-manager-3-tabele\\Views\\Priority\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Priority\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Lidia\\Desktop\\TaskManager-task-manager-3-tabele\\Views\\Priority\\Index.cshtml",
+              "RelativeToolTip": "Views\\Priority\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-05T14:21:50.502Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Lidia\\Desktop\\TaskManager-task-manager-3-tabele\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Lidia\\Desktop\\TaskManager-task-manager-3-tabele\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-05T14:20:08.734Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "site.js",
+              "DocumentMoniker": "C:\\Users\\Lidia\\Desktop\\TaskManager-task-manager-3-tabele\\wwwroot\\js\\site.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\site.js",
+              "ToolTip": "C:\\Users\\Lidia\\Desktop\\TaskManager-task-manager-3-tabele\\wwwroot\\js\\site.js",
+              "RelativeToolTip": "wwwroot\\js\\site.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-06-04T15:53:33.331Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\Lidia\\Desktop\\TaskManager-task-manager-3-tabele\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\Lidia\\Desktop\\TaskManager-task-manager-3-tabele\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "wwwroot\\css\\site.css",
+              "ViewState": "AQIAADwAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-06-04T15:53:35.711Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\Lidia\\Desktop\\TaskManager-task-manager-3-tabele\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\Lidia\\Desktop\\TaskManager-task-manager-3-tabele\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-04T15:53:26.478Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Lidia\\Desktop\\TaskManager-task-manager-3-tabele\\Views\\Task\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\Task\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\Lidia\\Desktop\\TaskManager-task-manager-3-tabele\\Views\\Task\\Delete.cshtml",
+              "RelativeToolTip": "Views\\Task\\Delete.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-04T15:47:11.296Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Lidia\\Desktop\\TaskManager-task-manager-3-tabele\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\Lidia\\Desktop\\TaskManager-task-manager-3-tabele\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-03T19:19:15.362Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
