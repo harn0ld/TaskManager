@@ -15,6 +15,7 @@ namespace TaskManager.Models
         public int StatusId { get; set; }
         [MaxLength(50)]
         public string StatusType { get; set; }
+        public ICollection<TaskModel> Tasks { get; set; }
 
     }
 }

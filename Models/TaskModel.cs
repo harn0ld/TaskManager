@@ -27,5 +27,10 @@ namespace TaskManager.Models
         [ForeignKey("PriorityId")]
         public virtual Priorities Priority { get; set; }
 
+        public int? StatusId { get; set; }
+
+        [ForeignKey("StatusId")]
+        public virtual Status Status { get; set; }
+
     }
 }
