@@ -62,7 +62,6 @@ namespace TaskManager.Controllers
             _taskRepository.Update(id, taskModel);
 
             return RedirectToAction(nameof(Index));
-
         }
 
         // GET: Task/Delete/5
@@ -79,7 +78,6 @@ namespace TaskManager.Controllers
             _taskRepository.Delete(id);
 
             return RedirectToAction(nameof(Index));
-
         }
 
         // GET: Task/Done/5
@@ -91,6 +89,21 @@ namespace TaskManager.Controllers
 
             return RedirectToAction(nameof(Index));
         }
+
+        // Dodaj akcję ChangeStatus
+        [HttpPost]
+        public IActionResult ChangeStatus(int id)
+        {
+            var task = _taskRepository.Get(id);
+            if (task != null)
+            {
+                task.StatusId = 1; // Zmieniamy status na 1 (Gotowe)
+                _taskRepository.Update(id, task);
+                return Json(new { success = true });
+            }
+            return Json(new { success = false });
+        }
+
 
 
         public IActionResult Hej()
@@ -104,7 +117,5 @@ namespace TaskManager.Controllers
         {
             return RedirectToAction(nameof(Index));
         }
-
-
     }
 }

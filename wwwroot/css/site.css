@@ -69,3 +69,18 @@ body {
   white-space: nowrap;
   line-height: 60px; /* Vertically center the text there */
 }
+
+.completed {
+    text-decoration: line-through;
+    color: gray;
+}
+
+.done-task {
+    color: gray;
+    text-decoration: line-through;
+}
+
+
+.status-done {
+    color: gray;
+}
