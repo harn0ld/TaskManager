@@ -1,6 +1,8 @@
 # TaskManager C#
 Hubert Nowak i Lidia Moryc
 
+TO OPEN WHOLE APPLICATION OPEN BRANCH Merge-tabel-z-login
+
 Aplikacja webowa na temat zarządzania listą zadań przez użytkowników.
 
 Tabele będą dotyczyć  Danych użytkownika -> Zadania -> Priorytet
