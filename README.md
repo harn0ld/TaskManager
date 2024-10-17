@@ -1,4 +1,4 @@
-# TaskManager
+# TaskManager C#
 Hubert Nowak i Lidia Moryc
 
 Aplikacja webowa na temat zarządzania listą zadań przez użytkowników.
